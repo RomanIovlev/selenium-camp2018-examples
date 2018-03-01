@@ -1,4 +1,5 @@
 package io.github.epam.sections;
+
 import com.epam.jdi.uitests.web.selenium.elements.common.*;
 import com.epam.jdi.uitests.web.selenium.elements.complex.*;
 import com.epam.jdi.uitests.web.selenium.elements.composite.*;
@@ -6,9 +7,9 @@ import com.epam.jdi.uitests.web.selenium.elements.composite.WebPage;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.objects.*;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.*;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.FindBy;
+import io.github.epam.entities.*;
 
-public class ContactForm extends Form{
-	@Css("select") public Dropdown gender;
+public class ContactForm extends Form<User> {
 	@XPath(".//button[@type='submit']") public Button submit;
 	@Css("input[type=checkbox]#Passport") public CheckBox passport;
 	@Css("input[type=checkbox]#accept-conditions") public CheckBox acceptConditions;

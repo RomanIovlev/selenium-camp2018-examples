@@ -12,6 +12,12 @@ public class SimpleTestsInit extends TestNGBase {
     public static void setUp() {
         logger.setLogLevel(LogLevels.STEP);
         WebSite.init(EpamGithubSite.class);
+        EpamGithubSite.open();
         logger.info("Run Tests");
     }
+
+    /*public static void shouldBeLoggedIn() {
+        if ()
+    }*/
+
 }

@@ -14,5 +14,5 @@ public class ContactFormPage extends WebPage {
 	@Css("footer") public Footer footer;
 	@Css(".uui-side-bar[name='navigation-sidebar']") public NavigationSidebar navigationSidebar;
 	@Css(".uui-side-bar[name='log-sidebar']") public LogSidebar logSidebar;
-	@Css("main") public Main main;
+	@Css(".main-form") public Main main;
 }

@@ -10,4 +10,6 @@ public class EpamGithubSite extends WebSite {
 	public static HomePage homePage;
 	@JPage(url = "/JDI/contacts.html", title = "Contact Form")
 	public static ContactFormPage contactFormPage;
+	@JPage(url = "/JDI/metals-colors.html", title = "Metal and Colors")
+	public static MetalAndColorsPage metalAndColorsPage;
 }

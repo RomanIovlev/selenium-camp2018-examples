@@ -13,5 +13,6 @@ public class HomePage extends WebPage {
 	@Css("header") public Header header;
 	@Css("footer") public Footer footer;
 	@Css(".uui-side-bar") public NavigationSidebar navigationSidebar;
-	@Css("main") public Main main;
+	@Css("h3[name='main-title']") public Label mainTitle;
+	@Css(".main-txt") public Text jdiText;
 }
