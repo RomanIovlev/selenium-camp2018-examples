@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jdi-template</groupId>
-    <artifactId>jdi-template</artifactId>
+    <groupId>jdi-seleniumcamp-example</groupId>
+    <artifactId>jdi-seleniumcamp-example</artifactId>
     <version>1.0</version>
-    <name>JDI Test project Template</name>
+    <name>JDI Example for Selenium Camp 2018</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
