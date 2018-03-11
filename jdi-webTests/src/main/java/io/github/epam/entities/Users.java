@@ -11,7 +11,9 @@ public class Users {
         u.position = "ChiefQA";
         u.number = "4321";
         u.seria = "123456";
-        u.email = "roman.iovlev.jdi@gmail.com";
-        u.phone = "+7(987)123-45-67";
-        u.description = "JDI - awesome UI autoamtion tool";});
+        u.description = "JDI - awesome UI autoamtion tool";
+        u.gender = "Female";
+        u.religion = "Other";
+        u.wheather = "Sun, Snow";
+    });
 }

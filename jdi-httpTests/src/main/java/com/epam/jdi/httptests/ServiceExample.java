@@ -20,9 +20,9 @@ public class ServiceExample {
 
     @Header(name = "Type", value = "Test")
     @POST("/post")
-    RestMethod postMethod;
+    static RestMethod postMethod;
 
-    @PUT("/put") RestMethod putMethod;
+    @PUT("/put") static RestMethod putMethod;
     @PATCH("/patch") RestMethod patch;
     @DELETE("/delete") RestMethod delete;
     @GET("/status/%s") RestMethod status;

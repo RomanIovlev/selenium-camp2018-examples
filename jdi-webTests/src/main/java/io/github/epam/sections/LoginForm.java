@@ -11,4 +11,5 @@ public class LoginForm extends Form<User> {
 	@XPath(".//button[@type='submit']") public Button enter;
 	@Css("input[type=text]") public TextField name;
 	@Css("input[type=password]") public TextField password;
+
 }

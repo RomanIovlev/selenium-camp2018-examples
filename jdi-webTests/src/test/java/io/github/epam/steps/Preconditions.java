@@ -1,6 +1,6 @@
 package io.github.epam.steps;
 
-import static io.github.epam.EpamGithubSite.homePage;
+import static io.github.epam.EpamGithubSite.header;
 import static io.github.epam.entities.Users.DEFAULT_USER;
 
 /**
@@ -8,15 +8,15 @@ import static io.github.epam.entities.Users.DEFAULT_USER;
  */
 public class Preconditions {
     public static void loggedIn() {
-        if (!homePage.header.piterChailovskii.displayedNow()) {
-            homePage.header.userIcon.click();
-            homePage.header.loginForm.loginAs(DEFAULT_USER);
+        if (!header.piterChailovskii.displayedNow()) {
+            header.userIcon.click();
+            header.loginForm.loginAs(DEFAULT_USER);
         }
     }
     public static void loggedOut() {
-        if (homePage.header.piterChailovskii.displayedNow()) {
-            homePage.header.userIcon.click();
-            homePage.header.logout.click();
+        if (header.piterChailovskii.displayedNow()) {
+            header.userIcon.click();
+            header.logout.click();
         }
     }
 }

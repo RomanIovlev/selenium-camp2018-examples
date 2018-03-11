@@ -1,18 +1,12 @@
 package io.github.epam.pages;
 
-import io.github.epam.sections.*;
-import com.epam.jdi.uitests.web.selenium.elements.common.*;
-import com.epam.jdi.uitests.web.selenium.elements.complex.*;
-import com.epam.jdi.uitests.web.selenium.elements.composite.*;
 import com.epam.jdi.uitests.web.selenium.elements.composite.WebPage;
-import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.objects.*;
-import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.*;
-import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.FindBy;
+import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.Css;
+import io.github.epam.sections.LogSidebar;
+import io.github.epam.sections.Main;
 
 public class ContactFormPage extends WebPage {
-	@Css("header") public Header header;
-	@Css("footer") public Footer footer;
-	@Css(".uui-side-bar[name='navigation-sidebar']") public NavigationSidebar navigationSidebar;
 	@Css(".uui-side-bar[name='log-sidebar']") public LogSidebar logSidebar;
 	@Css(".main-form") public Main main;
+
 }
